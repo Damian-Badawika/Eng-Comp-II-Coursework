@@ -1,0 +1,11 @@
+Project 5 Usage and implementation
+
+In this project we have to create 3 data structures to store info about actors and movies in fifferent ways.
+
+In problems 1 and 2, I create a hash table and index through the data file splitting up the values by the tab character
+I store the relevant info as class data in either the actor or movie class. They then get nserted into the hash table where they are hashed by name.
+I tested each table with 2 actors/movies that exist and 1 that does not.
+
+Problem three creates 2 new hash tables that hash by ID number, and then searches for the actor ID in the actor table, and then the movie ID 
+in the movie table, it then adds the movie ID to that actor's list of movies in their class data. This actor is inserted into another table where it is hashed by name.
+the code for problem 3 does not work and is a steaming pile of crap. 
